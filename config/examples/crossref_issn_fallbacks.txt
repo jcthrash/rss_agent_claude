@@ -1,0 +1,21 @@
+# Journal ISSN queries — fetched via Crossref ISSN-based queries.
+# Format: Journal Name | ISSN (electronic preferred)
+# Lines starting with # are ignored.
+#
+# Use this for journals whose RSS feeds are unreliable, blocked by bot
+# protection, or simply not available. The pipeline queries Crossref for
+# recent articles from these ISSNs as a fallback.
+#
+# Find electronic ISSNs at https://portal.issn.org or on the journal homepage.
+# Add or remove journals as needed.
+
+Nature | 1476-4687
+Nature Communications | 2041-1723
+Science | 1095-9203
+PNAS | 1091-6490
+ISME Journal | 1751-7370
+ISME Communications | 2730-6542
+Soil Biology and Biochemistry | 0038-0717
+Global Change Biology | 1365-2486
+New Phytologist | 1469-8137
+Molecular Ecology | 1365-294X

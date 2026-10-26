@@ -1,0 +1,17 @@
+# Crossref query terms for supplemental article fetching.
+# These are intentionally broader than the interest profile to maximise recall
+# at the fetch stage — the semantic filter and LLM ranker handle precision.
+#
+# One term per line. Lines starting with # are ignored.
+# Keep to ~10-15 terms; each generates up to CROSSREF_MAX_PER_TERM results.
+
+soil microbial ecology
+environmental metagenomics
+terrestrial biogeochemistry
+soil carbon cycling
+mycorrhizal fungal ecology
+plant microbe interaction ecology
+microbial community assembly soil
+genome resolved metagenomics
+soil nitrogen cycling
+microbial decomposition organic matter

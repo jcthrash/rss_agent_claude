@@ -1,0 +1,16 @@
+# bioRxiv subject collections to fetch via API.
+# One subject per line. Lines starting with # are ignored.
+# Valid subjects: https://www.biorxiv.org/alertsrss
+# The API uses underscores; this file accepts spaces or underscores.
+#
+# Choose subjects relevant to your field. Common subjects:
+#   microbiology, ecology, genomics, bioinformatics, genetics,
+#   systems_biology, synthetic_biology, evolutionary_biology,
+#   biochemistry, cell_biology, biophysics, molecular_biology,
+#   plant_biology, neuroscience, immunology, bioengineering
+
+ecology
+microbiology
+genomics
+bioinformatics
+evolutionary_biology

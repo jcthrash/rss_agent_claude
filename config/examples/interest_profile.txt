@@ -1,0 +1,24 @@
+# Interest profile — one topic per line.
+# Lines starting with # are ignored.
+#
+# This file defines your core research interests. Each line becomes part of
+# a combined "interest vector" used by the semantic embedding filter to score
+# how relevant an article is to your work.
+#
+# Write each topic as a short phrase (2-6 words). Be specific enough to
+# distinguish your interests from adjacent fields, but broad enough to
+# catch relevant papers with varied wording.
+#
+# Example below: a researcher in environmental genomics and soil ecology.
+# Replace with your own interests.
+
+Soil microbial ecology
+Environmental metagenomics
+Terrestrial biogeochemical cycles
+Microbial community assembly
+Plant-microbe interactions in natural systems
+Rhizosphere microbiome ecology
+Soil carbon cycling and decomposition
+Fungal ecology and mycorrhizal networks
+Microbial responses to climate change
+Bioinformatics and computational ecology

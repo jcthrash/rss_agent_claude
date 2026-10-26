@@ -1,0 +1,56 @@
+# bioRxiv keyword filter terms
+# These are matched against title + abstract of preprints fetched via Crossref
+# (prefix 10.1101). Keep terms specific enough to filter noise but broad enough
+# for recall. One term per line, case-insensitive substring match.
+# Lines starting with # are ignored.
+#
+# The goal: from ~200-500 bioRxiv preprints per day across all biology,
+# keep the ~20-50 relevant to your field.
+
+# Core ecology topics
+soil microbial
+soil microbiome
+soil ecology
+soil carbon
+soil organic
+terrestrial ecosystem
+forest soil
+grassland soil
+rhizosphere
+mycorrhiza
+mycorrhizal
+fungal ecology
+fungal community
+decomposition
+
+# Biogeochemistry
+biogeochemical cycle
+carbon cycling
+nitrogen cycling
+nutrient cycling
+soil respiration
+greenhouse gas
+nitrous oxide
+methane soil
+carbon sequestration
+
+# Environmental genomics
+metagenom
+metatranscriptom
+environmental DNA
+soil DNA
+genome-resolved
+MAG
+metagenome-assembled
+amplicon sequencing
+16S rRNA
+ITS sequencing
+shotgun sequencing
+
+# Microbial ecology broader
+microbial community
+microbial diversity
+microbial ecology
+community assembly
+microbial succession
+microbial biomass

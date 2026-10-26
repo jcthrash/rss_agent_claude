@@ -1,0 +1,66 @@
+# RSS/Atom feed URLs — one per line.
+# Lines starting with # are ignored. Blank lines are skipped.
+#
+# Add feeds for journals relevant to your research. Most publishers offer
+# RSS or Atom feeds for tables of contents or early-access articles.
+#
+# Tips for finding feeds:
+#   - Look for an RSS icon on the journal homepage
+#   - Try appending /rss, /feed, or /atom to the journal URL
+#   - Search "[journal name] RSS feed" in your browser
+#   - Springer journals:  https://link.springer.com/search.rss?facet-journal-id=NNNNN
+#   - Wiley journals:     https://onlinelibrary.wiley.com/rss/journal/10.XXXX/(ISSN)XXXX-XXXX
+#   - Elsevier journals:  https://rss.sciencedirect.com/publication/science/ISSN
+#   - Nature journals:    https://www.nature.com/JOURNAL.rss
+#   - OUP journals:       https://academic.oup.com/rss/site_NNNN/advanceAccess_NNNN.xml
+#   - ASM journals:       https://journals.asm.org/action/showFeed?type=etoc&feed=rss&jc=CODE
+#   - bioRxiv subjects:   https://connect.biorxiv.org/biorxiv_xml.php?subject=SUBJECT
+#
+# Start with a manageable set (~20-50 feeds) and expand as needed.
+# The pipeline deduplicates across feeds, so overlap is fine.
+
+# ── General / multidisciplinary ──────────────────────────────────────────────
+https://feeds.nature.com/nature/rss/current
+http://feeds.nature.com/ncomms/rss/current
+https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
+https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
+https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=PNAS
+https://journals.plos.org/plosbiology/feed/atom
+https://journals.plos.org/plosone/feed/atom
+http://elife.elifesciences.org/rss/recent.xml
+https://peerj.com/articles/index.rss2
+
+# ── Ecology & evolution ──────────────────────────────────────────────────────
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1461-0248
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1365-2745
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1365-294X
+http://feeds.nature.com/natecolevol/rss/current
+http://www.cell.com/rssFeed/ecology-evolution/rss.NewArticles.xml
+
+# ── Genomics & bioinformatics ────────────────────────────────────────────────
+https://genome.cshlp.org/rss/ahead.xml
+http://feeds.nature.com/ng/rss/current
+http://feeds.nature.com/nmeth/rss/current
+https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=12859&channel-name=BMC+Bioinformatics
+https://journals.plos.org/ploscompbiol/feed/atom
+http://feeds.nature.com/nbt/rss/current
+
+# ── Microbiology ─────────────────────────────────────────────────────────────
+http://feeds.nature.com/nmicrobiol/rss/current
+http://feeds.nature.com/nrmicro/rss/current
+http://feeds.nature.com/ismej/rss/current
+https://journals.asm.org/action/showFeed?type=etoc&feed=rss&jc=MBIO
+https://journals.asm.org/action/showFeed?type=etoc&feed=rss&jc=AEM
+
+# ── Earth & environmental science ────────────────────────────────────────────
+http://feeds.nature.com/ngeo/rss/current
+http://feeds.nature.com/nclimate/rss/aop
+https://www.biogeosciences.net/xml/rss2_0.xml
+http://feeds.nature.com/sdata/rss/current
+
+# ── bioRxiv preprint subjects ────────────────────────────────────────────────
+https://connect.biorxiv.org/biorxiv_xml.php?subject=genomics
+https://connect.biorxiv.org/biorxiv_xml.php?subject=ecology
+https://connect.biorxiv.org/biorxiv_xml.php?subject=microbiology
+https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics
+https://connect.biorxiv.org/biorxiv_xml.php?subject=evolutionary_biology

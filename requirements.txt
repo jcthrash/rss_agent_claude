@@ -1,0 +1,17 @@
+# RSS Agent Claude — Python dependencies
+#
+# Install with:  pip install -r requirements.txt
+#
+# Notes:
+#   - PyTorch: see https://pytorch.org/get-started/locally/ for GPU/platform options.
+#     The CPU-only build is sufficient for embedding and works everywhere.
+#   - faiss-cpu: for Apple Silicon Macs, conda install may be more reliable than pip.
+
+feedparser
+numpy
+torch
+transformers
+faiss-cpu
+anthropic
+python-dotenv
+requests
