@@ -128,7 +128,7 @@ This is the heart of the system — the prompt that tells Claude how to score ea
 
 The hard negatives section is especially important — without it, the LLM may score tangentially related papers too high.
 
-A real-world example is included: `config/examples/ranking_prompt_marine_microbiology.txt` is the production prompt used by the original author of this fork (marine microbial ecology / microbial physiology). Comparing it to the generic `ranking_prompt.txt` example shows how to adapt the structure for your own field.
+A real-world example is included: `config/examples/ranking_prompt_marine_microbiology.txt` is the production prompt that I've honed in on over many iterations and represents my rubric as of this posting (marine microbial ecology / microbial physiology). Comparing it to the generic `ranking_prompt.txt` example shows how to adapt the structure for your own field.
 
 #### 3. `feeds.txt`
 Find RSS/Atom feeds for journals in your field. Most publishers provide them:
